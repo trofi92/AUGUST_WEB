@@ -203,15 +203,32 @@ header ul li a:hover {
   font-style: 'poppins';
 }
 
+/* responsive */
 
 @media (max-width : 991px) {
   .banner {
     grid-template-columns: 1fr;
   } 
-  .header {
+  header {
     padding : 20px ,40px;
   }
+  .banner .content {
+    padding : 40px;
+    height :70vh;
+  }
+  .sci {
+    right: 40px
+  }
 }
+
+@media (max-width : 600px) {
+  .banner .image .imgBx {
+    width : 100%;
+  }
+}
+
+
+
 
 @keyframes bigger{
   0%{transfrom : none;}
